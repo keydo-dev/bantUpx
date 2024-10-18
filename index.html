@@ -1,0 +1,1276 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bantUpx</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Splash Screen -->
+
+    <div class="intro">
+      <div class="logo-header">
+        <span class="logo text-black">bant</span>
+        <span class="logo text-orange-600">Upx.</span>
+      </div>
+    </div>
+
+    <script src="splash.js"></script>
+
+    <!-- Navbar -->
+
+    <nav class="sticky bg-white border-b border-gray-200">
+      <div
+        class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <p class="self-center text-3xl font-bold text-gray-900">
+            bant<span class="text-orange-600">Upx.</span>
+          </p>
+        </a>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+          <ul
+            class="flex flex-col font-bold ml-96 md:p-0 mt-4 md:gap-10 md:flex-row md:mt-0 md:border-0"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-black md:dark:hover:text-orange-600 hover:text-lg transition-all duration-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-black md:dark:hover:text-orange-600 hover:text-lg transition-all duration-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#course"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-black md:dark:hover:text-orange-600 hover:text-lg transition-all duration-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Courses</a
+              >
+            </li>
+            <li>
+              <a
+                href="#testimoni"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-black md:dark:hover:text-orange-600 hover:text-lg transition-all duration-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Testimoni</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-black md:dark:hover:text-orange-600 hover:text-lg transition-all duration-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section Hero -->
+
+    <section class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        data-aos="zoom-out"
+      >
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-6xl text-3xl mb-4 font-bold text-gray-900"
+          >
+            Upgrade your skills and <br class="hidden lg:inline-block" />
+            knowledge in a new and <br class="hidden lg:inline-block" />
+            unique way
+          </h1>
+          <p class="w-4/5 mb-8 font-semibold leading-relaxed">
+            Ingin menguasai keterampilan baru atau memperdalam pengetahuan di
+            bidang tertentu? Jangan lewatkan kesempatan untuk bergabung dalam
+            course kami! 💡✨ Daftar sekarang dan dapatkan wawasan praktis serta
+            materi eksklusif yang dirancang untuk mempercepat perkembangan
+            karier Anda! Ayo, segera daftar sebelum tempat terbatas ini habis!
+            🔥"
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="inline-flex font-semibold text-white bg-orange-500 border-0 py-2 px-6 hover:bg-orange-600 hover:translate-y-1 transition-transform shadow-xl rounded text-lg"
+            >
+              Register Now
+            </button>
+            <button
+              class="ml-4 inline-flex font-semibold border text-gray-900 py-2 px-6 focus:outline-none hover:border-3 hover:translate-y-1 hover:bg-gray-700 hover:text-white transition delay-100 ease-in hover:shadow-xl rounded text-lg"
+            >
+              What is BantuUpx?
+            </button>
+          </div>
+        </div>
+        <div
+          class="lg:max-w-lg lg:w-full md:w-1/2 hover:scale-125 transition-all duration-200"
+        >
+          <img
+            class="object-cover object-center rounded"
+            alt="hero"
+            src="asset/Image Hero.png"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Running Text -->
+    <div class="wrapper">
+      <div class="scroll">
+        <div class="RightToLeft">
+          <p>
+            Hey There👋 Welcome to BantuUpx! Immediately Register Yourself to
+            add Your Skills and Abilities✌️
+          </p>
+          <p>
+            Hey There👋 Welcome to BantuUpx! Immediately Register Yourself to
+            add Your Skills and Abilities✌️
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section About -->
+
+    <section id="about" class="text-gray-600 body-font mt-20">
+      <div class="flex items-center justify-center container mx-auto">
+        <div class="text-4xl font-bold text-gray-900">About Our Courses</div>
+      </div>
+      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        <div
+          class="lg:w-1/2 w-auto mb-10 lg:mb-0 flex justify-center rounded-lg overflow-hidden"
+          data-aos="fade-up-right"
+        >
+          <img
+            alt="feature"
+            class="object-cover object-center h-auto w-auto scale-90 hover:scale-100 transition-all duration-200"
+            src="asset/Image About.png"
+          />
+        </div>
+        <div
+          class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center"
+          data-aos="fade-up-left"
+        >
+          <div class="w-96 h-auto flex items-center justify-center mb-8">
+            <h1 class="text-3xl font-semibold text-gray-900">
+              <span
+                class="text-orange-500 hover:underline transition-all duration-75"
+                >Benefits</span
+              >
+              From Our Online Learning
+            </h1>
+          </div>
+          <div class="flex mb-5 lg:items-start items-center">
+            <div
+              class="bg-primary w-16 h-16 inline-flex items-center justify-center rounded-full mb-5 mr-6 hover:scale-125 transition-all duration-100"
+            >
+              <img src="asset/Graduation.png" alt="" />
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-bold mb-2">
+                Online Degrees
+              </h2>
+              <p class="w-96 leading-relaxed text-sm font-medium">
+                Dapatkan gelar terakreditasi dari kenyamanan rumah Anda, membuka
+                pintu ke dunia yang penuh kemungkinan
+              </p>
+            </div>
+          </div>
+          <div class="flex mb-5 lg:items-start items-center">
+            <div
+              class="w-16 h-16 inline-flex items-center justify-center rounded-full bg-orange-500 mb-5 mr-6 hover:scale-125 transition-all duration-100"
+            >
+              <img src="asset/Books.png" alt="" />
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-bold mb-2">
+                Short Courses
+              </h2>
+              <p class="w-96 leading-relaxed text-sm font-medium">
+                Tingkatkan keterampilan Anda dengan kursus singkat kami, yang
+                dirancang untuk pembelajaran yang cepat dan efektif.
+              </p>
+            </div>
+          </div>
+          <div class="flex mb-5 lg:items-start items-center">
+            <div
+              class="bg-primary w-16 h-16 inline-flex items-center justify-center rounded-full mb-5 mr-6 hover:scale-125 transition-all duration-100"
+            >
+              <img src="asset/Contact.png" alt="" />
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-bold mb-2">
+                Training From Experts
+              </h2>
+              <p class="w-96 leading-relaxed text-sm font-medium">
+                Benamkan diri Anda dalam pengetahuan dengan para pakar industri
+                yang akan memandu Anda melalui pengalaman langsung.
+              </p>
+            </div>
+          </div>
+          <div class="flex mb-5 lg:items-start items-center">
+            <div
+              class="w-16 h-16 inline-flex items-center justify-center rounded-full bg-orange-500 mb-5 mr-6 hover:scale-125 transition-all duration-100"
+            >
+              <img src="asset/Play.png" alt="" />
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-bold mb-2">
+                1.5K+ Video Courses
+              </h2>
+              <p class="w-96 leading-relaxed text-sm font-medium">
+                Selami perpustakaan yang luas dengan lebih dari 1,5 juta video
+                kursus yang mencakup berbagai mata pelajaran, yang menawarkan
+                pengalaman belajar secara visual
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Services -->
+
+    <section id="course" class="bg-gradient-to-r from-orange-600 to-yellow-500">
+      <div class="container px-5 py-24 mx-auto">
+        <div
+          class="flex flex-wrap mb-20 flex-col items-center text-center"
+          data-aos="fade-down"
+        >
+          <h1 class="sm:text-4xl text-3xl font-bold title-font mb-2 text-white">
+            Our Populer Courses
+          </h1>
+          <p class="lg:w-1/2 w-full font-medium leading-relaxed text-white">
+            Temukan kursus kami yang paling banyak dicari, yang dikurasi dengan
+            cermat untuk memenuhi tuntutan pelajar masa kini. Selami konten
+            menarik yang dibuat untuk kesuksesan dalam setiap langkah perjalanan
+            pendidikan Anda.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10"
+        >
+          <div class="relative mx-auto w-96 animation-scroll">
+            <a
+              href="#"
+              class="relative inline-block duration-300 ease-in-out transition-transform transform hover:-translate-y-2 w-full"
+            >
+              <div class="shadow p-4 rounded-3xl bg-white">
+                <div
+                  class="flex justify-center relative rounded-lg overflow-hidden h-64"
+                >
+                  <div
+                    class="transition-transform duration-500 transform ease-in-out hover:scale-110 w-full"
+                  >
+                    <img
+                      class="absolute inset-0 rounded-lg"
+                      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="flex justify-between">
+                  <div
+                    class="inline-flex px-4 py-1 rounded-md bg-orange-200 text-xs font-semibold text-gray-900 hover:-translate-y-1 hover:scale-105 transition-all transform duration-150"
+                  >
+                    <span class="text-orange-500 mr-2">◉</span>Web Design
+                  </div>
+
+                  <div
+                    class="inline-flex px-3 py-1 rounded-md bg-orange-500 text-xs font-semibold text-white hover:-translate-y-1 hover:scale-105 transition-all transform duration-150"
+                  >
+                    ⛤ 4.9
+                  </div>
+                </div>
+
+                <div class="mt-5">
+                  <h2
+                    class="w-60 font-bold text-base md:text-xl text-gray-800"
+                    title="New York"
+                  >
+                    Web Design & Devlopment Courses
+                  </h2>
+                </div>
+
+                <div class="grid grid-cols-2 h-10 mt-8">
+                  <p
+                    class="inline-flex flex-col xl:flex-row xl:items-center text-gray-800"
+                  >
+                    <img
+                      class="inline-block w-6 h-6 xl:w-5 xl:h-5 mr-2"
+                      src="asset/Books2.png"
+                      alt=""
+                    />
+                    <span
+                      class="mt-2 xl:mt-0 font-semibold text-sm text-gray-900"
+                    >
+                      25 Classes
+                    </span>
+                  </p>
+                  <p
+                    class="inline-flex flex-col xl:flex-row xl:items-center text-gray-800"
+                  >
+                    <img
+                      class="inline-block w-6 h-6 xl:w-5 xl:h-5 mr-2"
+                      src="asset/Students Icon.png"
+                      alt=""
+                    />
+                    <span
+                      class="mt-2 xl:mt-0 font-semibold text-sm text-gray-900"
+                    >
+                      180 Students
+                    </span>
+                  </p>
+                </div>
+                <hr class="h-px bg-gray-300 border-0 dark:bg-gray-300" />
+
+                <div class="flex justify-between mt-5">
+                  <div class="flex justify-start">
+                    <p
+                      class="inline-block font-semibold text-black whitespace-nowrap leading-tight rounded-xl hover:underline"
+                    >
+                      <span class="text-lg uppercase font-bold text-gray-900">
+                        $
+                      </span>
+                      <span class="text-lg font-bold text-gray-900"
+                        >560.00</span
+                      >
+                    </p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <div class="relative justify-end">
+                      <img
+                        class="rounded-full w-6 h-6 md:w-10 md:h-10 bg-gray-200 bg-cover"
+                        src="asset/wel.jpg"
+                        alt=""
+                      />
+                      <span
+                        class="absolute inline-block w-5 h-5 rounded-full"
+                      ></span>
+                    </div>
+
+                    <p class="ml-2 font-semibold text-orange-600 line-clamp-1">
+                      Keydo Rinaldi
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="relative mx-auto w-96 animation-scroll">
+            <a
+              href="#"
+              class="relative inline-block duration-300 ease-in-out transition-transform transform hover:-translate-y-2 w-full"
+            >
+              <div class="shadow p-4 rounded-3xl bg-white">
+                <div
+                  class="flex justify-center relative rounded-lg overflow-hidden h-64"
+                >
+                  <div
+                    class="transition-transform duration-500 transform ease-in-out hover:scale-110 w-full"
+                  >
+                    <img
+                      class="absolute inset-0 rounded-lg"
+                      src="https://images.unsplash.com/photo-1609921212029-bb5a28e60960?q=80&w=2052&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="flex justify-between">
+                  <div
+                    class="inline-flex px-4 py-1 rounded-md bg-orange-200 text-xs font-semibold text-gray-900 hover:-translate-y-1 hover:scale-105 transition-all transform duration-150"
+                  >
+                    <span class="text-orange-500 mr-2">◉</span>UI/UX Design
+                  </div>
+
+                  <div
+                    class="inline-flex px-3 py-1 rounded-md bg-orange-500 text-xs font-semibold text-white hover:-translate-y-1 hover:scale-105 transition-all transform duration-150"
+                  >
+                    ⛤ 5.0
+                  </div>
+                </div>
+
+                <div class="mt-5">
+                  <h2
+                    class="w-60 font-bold text-base md:text-xl text-gray-800"
+                    title="New York"
+                  >
+                    Learn UI/UX and Grow Your Career
+                  </h2>
+                </div>
+
+                <div class="grid grid-cols-2 h-10 mt-8">
+                  <p
+                    class="inline-flex flex-col xl:flex-row xl:items-center text-gray-800"
+                  >
+                    <img
+                      class="inline-block w-6 h-6 xl:w-5 xl:h-5 mr-2"
+                      src="asset/Books2.png"
+                      alt=""
+                    />
+                    <span
+                      class="mt-2 xl:mt-0 font-semibold text-sm text-gray-900"
+                    >
+                      18 Classes
+                    </span>
+                  </p>
+                  <p
+                    class="inline-flex flex-col xl:flex-row xl:items-center text-gray-800"
+                  >
+                    <img
+                      class="inline-block w-6 h-6 xl:w-5 xl:h-5 mr-2"
+                      src="asset/Students Icon.png"
+                      alt=""
+                    />
+                    <span
+                      class="mt-2 xl:mt-0 font-semibold text-sm text-gray-900"
+                    >
+                      160 Students
+                    </span>
+                  </p>
+                </div>
+                <hr class="h-px bg-gray-300 border-0 dark:bg-gray-300" />
+
+                <div class="flex justify-between mt-5">
+                  <div class="flex justify-start">
+                    <p
+                      class="inline-block font-semibold text-black whitespace-nowrap leading-tight rounded-xl hover:underline"
+                    >
+                      <span class="text-lg uppercase font-bold text-gray-900">
+                        $
+                      </span>
+                      <span class="text-lg font-bold text-gray-900"
+                        >390.00</span
+                      >
+                    </p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <div class="relative justify-end">
+                      <img
+                        class="rounded-full w-6 h-6 md:w-10 md:h-10 bg-gray-200 bg-cover"
+                        src="asset/Zaky.png"
+                        alt=""
+                      />
+                      <span
+                        class="absolute inline-block w-5 h-5 rounded-full"
+                      ></span>
+                    </div>
+
+                    <p class="ml-2 font-semibold text-orange-600 line-clamp-1">
+                      Zaky Lazuardi
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="relative mx-auto w-96 animation-scroll">
+            <a
+              href="#"
+              class="relative inline-block duration-300 ease-in-out transition-transform transform hover:-translate-y-2 w-full"
+            >
+              <div class="shadow p-4 rounded-3xl bg-white">
+                <div
+                  class="flex justify-center relative rounded-lg overflow-hidden h-64"
+                >
+                  <div
+                    class="transition-transform duration-500 transform ease-in-out hover:scale-110 w-full"
+                  >
+                    <img
+                      class="absolute inset-0 rounded-lg"
+                      src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="flex justify-between">
+                  <div
+                    class="inline-flex px-4 py-1 rounded-md bg-orange-200 text-xs font-semibold text-gray-900 hover:-translate-y-1 hover:scale-105 transition-all transform duration-150"
+                  >
+                    <span class="text-orange-500 mr-2">◉</span>Data Science
+                  </div>
+
+                  <div
+                    class="inline-flex px-3 py-1 rounded-md bg-orange-500 text-xs font-semibold text-white hover:-translate-y-1 hover:scale-105 transition-all transform duration-150"
+                  >
+                    ⛤ 4.7
+                  </div>
+                </div>
+
+                <div class="mt-5">
+                  <h2
+                    class="w-52 font-bold text-base md:text-xl text-gray-800"
+                    title="New York"
+                  >
+                    Python For Data Science
+                  </h2>
+                </div>
+
+                <div class="grid grid-cols-2 h-10 mt-8">
+                  <p
+                    class="inline-flex flex-col xl:flex-row xl:items-center text-gray-800"
+                  >
+                    <img
+                      class="inline-block w-6 h-6 xl:w-5 xl:h-5 mr-2"
+                      src="asset/Books2.png"
+                      alt=""
+                    />
+                    <span
+                      class="mt-2 xl:mt-0 font-semibold text-sm text-gray-900"
+                    >
+                      12 Classes
+                    </span>
+                  </p>
+                  <p
+                    class="inline-flex flex-col xl:flex-row xl:items-center text-gray-800"
+                  >
+                    <img
+                      class="inline-block w-6 h-6 xl:w-5 xl:h-5 mr-2"
+                      src="asset/Students Icon.png"
+                      alt=""
+                    />
+                    <span
+                      class="mt-2 xl:mt-0 font-semibold text-sm text-gray-900"
+                    >
+                      265 Students
+                    </span>
+                  </p>
+                </div>
+                <hr class="h-px bg-gray-300 border-0 dark:bg-gray-300" />
+
+                <div class="flex justify-between mt-5">
+                  <div class="flex justify-start">
+                    <p
+                      class="inline-block font-semibold text-black whitespace-nowrap leading-tight rounded-xl hover:underline"
+                    >
+                      <span class="text-lg uppercase font-bold text-gray-900">
+                        $
+                      </span>
+                      <span class="text-lg font-bold text-gray-900"
+                        >160.00</span
+                      >
+                    </p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <div class="relative justify-end">
+                      <img
+                        class="rounded-full w-6 h-6 md:w-10 md:h-10 bg-gray-200 bg-cover"
+                        src="asset/Vino.png"
+                        alt=""
+                      />
+                      <span
+                        class="absolute inline-block w-5 h-5 rounded-full"
+                      ></span>
+                    </div>
+
+                    <p class="ml-2 font-semibold text-orange-600 line-clamp-1">
+                      Alvino Fathan
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="relative mx-auto w-96 animation-scroll">
+            <a
+              href="#"
+              class="relative inline-block duration-300 ease-in-out transition-transform transform hover:-translate-y-2 w-full"
+            >
+              <div class="shadow p-4 rounded-3xl bg-white">
+                <div
+                  class="flex justify-center relative rounded-lg overflow-hidden h-64"
+                >
+                  <div
+                    class="transition-transform duration-500 transform ease-in-out hover:scale-110 w-full"
+                  >
+                    <img
+                      class="absolute inset-0 rounded-lg"
+                      src="https://www.antplc.com/wp-content/uploads/image-397.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="flex justify-between">
+                  <div
+                    class="inline-flex px-4 py-1 rounded-md bg-orange-200 text-xs font-semibold text-gray-900 hover:-translate-y-1 hover:scale-105 transition-all transform duration-150"
+                  >
+                    <span class="text-orange-500 mr-2">◉</span>IoT
+                  </div>
+
+                  <div
+                    class="inline-flex px-3 py-1 rounded-md bg-orange-500 text-xs font-semibold text-white hover:-translate-y-1 hover:scale-105 transition-all transform duration-150"
+                  >
+                    ⛤ 4.3
+                  </div>
+                </div>
+
+                <div class="mt-5">
+                  <h2
+                    class="w-60 font-bold text-base md:text-xl text-gray-800"
+                    title="New York"
+                  >
+                    Internet of Things (IoT) - Software and Platfroms
+                  </h2>
+                </div>
+
+                <div class="grid grid-cols-2 h-10 mt-8">
+                  <p
+                    class="inline-flex flex-col xl:flex-row xl:items-center text-gray-800"
+                  >
+                    <img
+                      class="inline-block w-6 h-6 xl:w-5 xl:h-5 mr-2"
+                      src="asset/Books2.png"
+                      alt=""
+                    />
+                    <span
+                      class="mt-2 xl:mt-0 font-semibold text-sm text-gray-900"
+                    >
+                      10 Classes
+                    </span>
+                  </p>
+                  <p
+                    class="inline-flex flex-col xl:flex-row xl:items-center text-gray-800"
+                  >
+                    <img
+                      class="inline-block w-6 h-6 xl:w-5 xl:h-5 mr-2"
+                      src="asset/Students Icon.png"
+                      alt=""
+                    />
+                    <span
+                      class="mt-2 xl:mt-0 font-semibold text-sm text-gray-900"
+                    >
+                      105 Students
+                    </span>
+                  </p>
+                </div>
+                <hr class="h-px bg-gray-300 border-0 dark:bg-gray-300" />
+
+                <div class="flex justify-between mt-5">
+                  <div class="flex justify-start">
+                    <p
+                      class="inline-block font-semibold text-black whitespace-nowrap leading-tight rounded-xl hover:underline"
+                    >
+                      <span class="text-lg uppercase font-bold text-gray-900">
+                        $
+                      </span>
+                      <span class="text-lg font-bold text-gray-900"
+                        >560.00</span
+                      >
+                    </p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <div class="relative justify-end">
+                      <img
+                        class="rounded-full w-6 h-6 md:w-10 md:h-10 bg-gray-200 bg-cover"
+                        src="asset/Athallah.png"
+                        alt=""
+                      />
+                      <span
+                        class="absolute inline-block w-5 h-5 rounded-full"
+                      ></span>
+                    </div>
+
+                    <p class="ml-2 font-semibold text-orange-600 line-clamp-1">
+                      Athallah Qintara
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="relative mx-auto w-96 animation-scroll">
+            <a
+              href="#"
+              class="relative inline-block duration-300 ease-in-out transition-transform transform hover:-translate-y-2 w-full"
+            >
+              <div class="shadow p-4 rounded-3xl bg-white">
+                <div
+                  class="flex justify-center relative rounded-lg overflow-hidden h-64"
+                >
+                  <div
+                    class="transition-transform duration-500 transform ease-in-out hover:scale-110 w-full"
+                  >
+                    <img
+                      class="absolute inset-0 rounded-lg"
+                      src="https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="flex justify-between">
+                  <div
+                    class="inline-flex px-4 py-1 rounded-md bg-orange-200 text-xs font-semibold text-gray-900 hover:-translate-y-1 hover:scale-105 transition-all transform duration-150"
+                  >
+                    <span class="text-orange-500 mr-2">◉</span>Data Science
+                  </div>
+
+                  <div
+                    class="inline-flex px-3 py-1 rounded-md bg-orange-500 text-xs font-semibold text-white hover:-translate-y-1 hover:scale-105 transition-all transform duration-150"
+                  >
+                    ⛤ 4.8
+                  </div>
+                </div>
+
+                <div class="mt-5">
+                  <h2
+                    class="w-60 font-bold text-base md:text-xl text-gray-800"
+                    title="New York"
+                  >
+                    Bootstrap 5 - Membuat Website Landing Page
+                  </h2>
+                </div>
+
+                <div class="grid grid-cols-2 h-10 mt-8">
+                  <p
+                    class="inline-flex flex-col xl:flex-row xl:items-center text-gray-800"
+                  >
+                    <img
+                      class="inline-block w-6 h-6 xl:w-5 xl:h-5 mr-2"
+                      src="asset/Books2.png"
+                      alt=""
+                    />
+                    <span
+                      class="mt-2 xl:mt-0 font-semibold text-sm text-gray-900"
+                    >
+                      19 Classes
+                    </span>
+                  </p>
+                  <p
+                    class="inline-flex flex-col xl:flex-row xl:items-center text-gray-800"
+                  >
+                    <img
+                      class="inline-block w-6 h-6 xl:w-5 xl:h-5 mr-2"
+                      src="asset/Students Icon.png"
+                      alt=""
+                    />
+                    <span
+                      class="mt-2 xl:mt-0 font-semibold text-sm text-gray-900"
+                    >
+                      213 Students
+                    </span>
+                  </p>
+                </div>
+                <hr class="h-px bg-gray-300 border-0 dark:bg-gray-300" />
+
+                <div class="flex justify-between mt-5">
+                  <div class="flex justify-start">
+                    <p
+                      class="inline-block font-semibold text-black whitespace-nowrap leading-tight rounded-xl hover:underline"
+                    >
+                      <span class="text-lg uppercase font-bold text-gray-900">
+                        $
+                      </span>
+                      <span class="text-lg font-bold text-gray-900"
+                        >560.00</span
+                      >
+                    </p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <div class="relative justify-end">
+                      <img
+                        class="rounded-full w-6 h-6 md:w-10 md:h-10 bg-gray-200 bg-cover"
+                        src="asset/wel.jpg"
+                        alt=""
+                      />
+                      <span
+                        class="absolute inline-block w-5 h-5 rounded-full"
+                      ></span>
+                    </div>
+
+                    <p class="ml-2 font-semibold text-orange-600 line-clamp-1">
+                      Keydo Rinaldi
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="relative mx-auto w-96 animation-scroll">
+            <a
+              href="#"
+              class="relative inline-block duration-300 ease-in-out transition-transform transform hover:-translate-y-2 w-full"
+            >
+              <div class="shadow p-4 rounded-3xl bg-white">
+                <div
+                  class="flex justify-center relative rounded-lg overflow-hidden h-64"
+                >
+                  <div
+                    class="transition-transform duration-500 transform ease-in-out hover:scale-110 w-full"
+                  >
+                    <img
+                      class="absolute inset-0 rounded-lg"
+                      src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="flex justify-between">
+                  <div
+                    class="inline-flex px-4 py-1 rounded-md bg-orange-200 text-xs font-semibold text-gray-900 hover:-translate-y-1 hover:scale-105 transition-all transform duration-150"
+                  >
+                    <span class="text-orange-500 mr-2">◉</span>Personal Web
+                  </div>
+
+                  <div
+                    class="inline-flex px-3 py-1 rounded-md bg-orange-500 text-xs font-semibold text-white hover:-translate-y-1 hover:scale-105 transition-all transform duration-150"
+                  >
+                    ⛤ 5.0
+                  </div>
+                </div>
+
+                <div class="mt-5">
+                  <h2
+                    class="w-60 font-bold text-base md:text-xl text-gray-800"
+                    title="New York"
+                  >
+                    Framer : Membuat Website Portfolio
+                  </h2>
+                </div>
+
+                <div class="grid grid-cols-2 h-10 mt-8">
+                  <p
+                    class="inline-flex flex-col xl:flex-row xl:items-center text-gray-800"
+                  >
+                    <img
+                      class="inline-block w-6 h-6 xl:w-5 xl:h-5 mr-2"
+                      src="asset/Books2.png"
+                      alt=""
+                    />
+                    <span
+                      class="mt-2 xl:mt-0 font-semibold text-sm text-gray-900"
+                    >
+                      15 Classes
+                    </span>
+                  </p>
+                  <p
+                    class="inline-flex flex-col xl:flex-row xl:items-center text-gray-800"
+                  >
+                    <img
+                      class="inline-block w-6 h-6 xl:w-5 xl:h-5 mr-2"
+                      src="asset/Students Icon.png"
+                      alt=""
+                    />
+                    <span
+                      class="mt-2 xl:mt-0 font-semibold text-sm text-gray-900"
+                    >
+                      300 Students
+                    </span>
+                  </p>
+                </div>
+                <hr class="h-px bg-gray-300 border-0 dark:bg-gray-300" />
+
+                <div class="flex justify-between mt-5">
+                  <div class="flex justify-start">
+                    <p
+                      class="inline-block font-semibold text-black whitespace-nowrap leading-tight rounded-xl hover:underline"
+                    >
+                      <span class="text-lg uppercase font-bold text-gray-900">
+                        $
+                      </span>
+                      <span class="text-lg font-bold text-gray-900"
+                        >560.00</span
+                      >
+                    </p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <div class="relative justify-end">
+                      <img
+                        class="rounded-full w-6 h-6 md:w-10 md:h-10 bg-gray-200 bg-cover"
+                        src="asset/Zaky.png"
+                        alt=""
+                      />
+                      <span
+                        class="absolute inline-block w-5 h-5 rounded-full"
+                      ></span>
+                    </div>
+
+                    <p class="ml-2 font-semibold text-orange-600 line-clamp-1">
+                      Zaky Lazuardi
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Testimoni -->
+
+    <section id="testimoni" class="text-gray-600">
+      <div class="container px-5 py-24 mx-auto" data-aos="zoom-in">
+        <h1
+          class="text-3xl font-medium title-font text-gray-900 mb-12 text-center"
+        >
+          Testimonials
+        </h1>
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 md:w-1/2 w-full">
+            <div class="h-full bg-gray-100 p-8 rounded">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                "Luar biasa! Materi kursus ini sangat lengkap dan mudah diikuti,
+                meskipun saya masih pemula. Video pembelajaran dan
+                latihan-latihan praktisnya membuat saya paham lebih cepat.
+                Setelah menyelesaikan kursus ini, saya bisa langsung menerapkan
+                ilmu yang saya pelajari ke proyek nyata."
+              </p>
+              <a class="inline-flex items-center">
+                <img
+                  alt="testimonial"
+                  src="https://dummyimage.com/106x106"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                />
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-gray-900">Dewi</span>
+                  <span class="text-gray-500 text-sm">Web Devloper</span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/2 w-full">
+            <div class="h-full bg-gray-100 p-8 rounded">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                "Kursus ini benar-benar membantu saya meningkatkan keterampilan
+                saya! Pembelajaran online yang fleksibel dan instruktur yang
+                ahli membuat saya nyaman belajar kapan saja. Materinya relevan
+                dengan tren terbaru di industri, dan saya merasa lebih siap
+                menghadapi tantangan di tempat kerja."
+              </p>
+              <a class="inline-flex items-center">
+                <img
+                  alt="testimonial"
+                  src="https://dummyimage.com/107x107"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                />
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-gray-900"
+                    >Rizal</span
+                  >
+                  <span class="text-gray-500 text-sm">Data Analyst</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact Us -->
+
+    <section
+      id="contact"
+      class="bg-gradient-to-r from-orange-600 to-yellow-500"
+    >
+      <div
+        class="flex justify-center container px-5 py-24 mx-auto"
+        data-aos="zoom-out"
+      >
+        <div class="bg-white rounded-3xl py-10">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1
+              class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
+            >
+              Contact Us
+            </h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+              Anything you want to say can be written in the column below,
+              including criticism and suggestions.
+            </p>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="leading-7 text-sm text-gray-600"
+                    >Name</label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-sm text-gray-600"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="leading-7 text-sm text-gray-600"
+                    >Message</label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <button
+                  class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                >
+                  Submit
+                </button>
+              </div>
+              <div
+                class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center"
+              >
+                <a class="text-indigo-500">example@email.com</a>
+                <p class="leading-normal my-5">
+                  49 Smith St. <br />Saint Cloud, MN 56301
+                </p>
+                <span class="inline-flex">
+                  <a class="text-gray-500">
+                    <svg
+                      fill="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="w-5 h-5"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a class="ml-4 text-gray-500">
+                    <svg
+                      fill="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="w-5 h-5"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a class="ml-4 text-gray-500">
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="w-5 h-5"
+                      viewBox="0 0 24 24"
+                    >
+                      <rect
+                        width="20"
+                        height="20"
+                        x="2"
+                        y="2"
+                        rx="5"
+                        ry="5"
+                      ></rect>
+                      <path
+                        d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a class="ml-4 text-gray-500">
+                    <svg
+                      fill="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="w-5 h-5"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
+                      ></path>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Footer -->
+    <footer class="text-gray-600 body-font">
+      <div
+        class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
+      >
+        <div
+          class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10"
+        >
+          <a
+            class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+          >
+            <span class="ml-3 text-3xl font-bold"
+              >bant<span class="text-orange-600">Upx</span></span
+            >
+          </a>
+        </div>
+        <div
+          class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first"
+        >
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+  </body>
+</html>
